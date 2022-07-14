@@ -9,7 +9,7 @@ class LoginRouter {
             return HttpResponse.badrequest('email');
         }
 
-        if (!email) {
+        if (!password) {
             return HttpResponse.badrequest('password');
         }
     }
